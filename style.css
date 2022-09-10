@@ -1,0 +1,143 @@
+html { 
+    height: 100%; 
+} 
+#header_logo p{
+    position: absolute;                                 /* header logo*/
+    color: rgb(7, 5, 4);
+    font-family: cursive;
+    top: 5%;
+    left: 50%;
+    font-size: xx-large;
+    transform: translate(-50%, -50%);
+}
+
+header{
+    background-color:teal; ;                       /* backgroud color of header*/
+}
+ img{
+    width: 120px;                                       /* image */
+    height: 100px;
+}
+
+#user{
+    font-size: medium;
+    float: right;                                        /* login signup */
+    right: 0;
+    text-decoration: none;
+    padding: 10px 10px 0px 0px;
+    
+}
+
+ a {
+    text-decoration: none;
+    color:#333;
+ }
+
+  
+
+ h1{
+    padding: 50px 0px 0px 0px;
+    margin: 10px;
+ }
+ .paras {
+    padding: 0px 20px;
+}
+.parass {
+    padding: 10px 90px;
+}
+
+body { 
+    
+    height: 100%;
+    display: grid;
+    margin: 0; 
+    background-color: rosybrown;
+    grid-template-areas:
+          "header_section"
+          "Site-content_section"
+          "footer_section";
+    grid-template-rows: 155px 64% 1%;
+   
+  }
+  hr {                                              
+    border: none;                                             /*HR tag */
+    height: 6px;
+    background:silver;
+    width: 100;
+   
+}
+
+
+ #text {
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: none;
+
+}
+   
+
+
+.footer{
+    position:relative;
+    background-color:beige ;
+    height: 100px;
+}
+.footer a{
+    
+    padding: 0px 0px 0px 20px;
+    margin: 10px;
+
+}
+
+h4{
+    padding-left: 10px;
+    font-family:cursive;
+}
+
+h4 #footer_image{
+    
+        width: 40px;                                     /* image */
+        height: 40px;
+        padding: 8px 10px 10px 10px;
+        float: right;
+}
+
+input[type=text], textarea {
+    width: 20%; 
+    padding: 6px; 
+    
+    
+    margin-top: 22px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+    text-align: center;
+    
+  }
+input[type=submit] {
+    background-color: #03422b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.container {
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+  }
+  #image{
+    
+    
+    width: 202px;
+    height: 179px;
+    padding-left: 20px;
+    padding-top: 33px;
+}
+
+h2{
+    padding-left: 105px;
+}
+h2.sectionSubTag-text-big{
+    padding:0px;
+}
